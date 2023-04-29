@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'unity_talker = ros2_unity_example.unity_talker:main'
         ],
     },
 )
